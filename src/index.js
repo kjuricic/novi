@@ -20,7 +20,7 @@ const App=()=>{
   console.log(good,neutral,bad);
   return(
     <div>
-      <h1>Ocijenite našu uslugu: </h1>
+      <h1>Ocijenite našu uslugu : </h1>
       <Tipka text="Dobro" funct={set1} flag={set4}/>
       <Tipka text="Neutralno" funct={set2} flag={set4}/>
       <Tipka text="Loše" funct={set3} flag={set4}/>
