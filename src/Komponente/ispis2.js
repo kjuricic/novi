@@ -1,11 +1,9 @@
 import React from "react";
 
-const Statistic=({text,good,neutral,bad})=>{
-    // let good={good};
-    // let neutral={neutral};
-    // let bad={bad};
-    let max=good+neutral+bad;
-    let positive=good+neutral;
+const Ispis2=({text,dobro,neutralno,lose})=>{
+
+    let max=dobro+neutralno+lose;
+    let positive=dobro+neutralno;
     let result=(positive/max)*100;
     return(
         <div>
@@ -13,4 +11,4 @@ const Statistic=({text,good,neutral,bad})=>{
         </div>
     );
 }
-export default Statistic;
+export default Ispis2;
